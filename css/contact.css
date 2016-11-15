@@ -1,0 +1,31 @@
+/* Start form*/
+ .contact-form form{
+  max-width: 450px;
+  margin: 20px auto;
+}
+.contact-form input, textarea{
+margin-bottom: 8px;
+}
+ .contact-formf textarea{
+  height: 180px !important;
+}
+.contact-form input:not([type=submit]) + i{
+  height: 0;
+  float: left;
+  position: relative;
+  top: -32px;
+  left: 10px;
+  color: #999;
+}
+.contact-form input{
+  padding-left: 35px;
+}
+.contact-form .send-icon{
+  display: block;
+  float: left;
+  position: relative;
+  top: 6px;
+  left: 15px;
+  color: #FFF;
+}
+/*End form*/
