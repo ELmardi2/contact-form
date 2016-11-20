@@ -1,7 +1,15 @@
+body{
+background-color: #99b3ff;
+}
+
 /* Start form*/
  .contact-form form{
   max-width: 450px;
   margin: 20px auto;
+}
+. .contact-form .form-group{
+  margin-bottom: 0;
+  position: relative;
 }
 .contact-form input, textarea{
 margin-bottom: 8px;
@@ -17,15 +25,28 @@ margin-bottom: 8px;
   left: 10px;
   color: #999;
 }
+.disclaimer{
+  height: 0;
+  float: right;
+  position: relative;
+  top: -32px;
+  left: -10px;
+  font-size: 25px;
+  color: red;
+}
 .contact-form input{
   padding-left: 35px;
+}
+.contact-form .costom-alert{
+  padding: 5px 10px;
+  display: none;
 }
 .contact-form .send-icon{
   display: block;
   float: left;
   position: relative;
-  top: 6px;
-  left: 15px;
+  top: 9px;
+  left: 16px;
   color: #FFF;
 }
 /*End form*/
